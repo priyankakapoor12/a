@@ -6,4 +6,4 @@ echo "username eentered = $USERNAME"
 echo "Please enter your password: "
 read PASSWORD
 echo
-echo "Password entered = $PASSWORD
+echo "Password entered = $PASSWORD"
