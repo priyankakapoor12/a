@@ -1,8 +1,9 @@
-#!/bin /bash
-PERSON1=$1
-PERSON2=$2
-PERSON3=$3
+#!/bin/bash
+echo "Please enter your username: "
+read USERNAME
+echo "username eentered = $USERNAME"
 
-echo "$PERSON1: How are you $PERSON2?"
-echo "$PERSON2: I am good $PERSON1."
-echo "$PERSON3: How are you $PERSON1 and $PERSON2?"
+echo "Please enter your password: "
+read -s PASSWORD
+echo
+echo "Password entered = $PASSWORD
